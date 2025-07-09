@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link" aria-label="link to Landing">Landing</a>
+                        <a href="#landing-id" class="nav-link" aria-label="link to Landing">Landing</a>
                     </li>
                     <li>
                         <a href="#" class="nav-link" aria-label="link to Company">Company</a>
@@ -45,6 +45,39 @@
             </nav>
         </div>
     </header>
+
+    <div class="mobile-menu">
+        <label for="toggler-id">
+            <svg class="mobile-burger-icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggler-id" class="toggler-mobile">
+
+        <nav class="nav-menu-mobile" aria-label="navigation menu">
+            <ul class="nav-list-mobile" aria-label="navigation list">
+                <li>
+                    <a href="#landing-id" class="nav-link-mobile" aria-label="link to Landing">Landing</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link-mobile" aria-label="link to Company">Company</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link-mobile" aria-label="link to CMS Pages">CMS Pages</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link-mobile" aria-label="link to Utility">Utility</a>
+                </li>
+            </ul>
+            <label for="toggler-id">
+                <svg class="mobile-cross-icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main class="main-page" aria-label="Main page">
         <section class="hero" aria-label="Hero section">
             <div class="container grid--2">
@@ -117,7 +150,7 @@
             </div>
         </section>
 
-        <section class="landing-pages" aria-label="Landing pages section">
+        <section class="landing-pages" aria-label="Landing pages section" id="landing-id">
             <div class="container">
                 <h2 class="landing-pages-title" aria-label="Landing pages title">Landing pages</h2>
                 <div class="landing-pages-grid">

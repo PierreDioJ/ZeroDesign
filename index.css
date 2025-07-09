@@ -3,4 +3,5 @@
 @import url(styles/header.css);
 @import url(styles/hero.css);
 @import url(styles/about.css);
-@import url(styles/landing-pages.css);
+@import url(styles/landing_pages.css);
+@import url(styles/mobile_nav.css);
